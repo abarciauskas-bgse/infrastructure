@@ -40,7 +40,8 @@ hub_cloud_permissions = {
                     "s3:*"
                 ],
                 "Resource": [
-                  "arn:aws:s3:::usgs-landsat"
+                  "arn:aws:s3:::usgs-landsat",
+                  "arn:aws:s3:::is2-cloud-experiments",
                 ]
             },
             {
@@ -49,7 +50,8 @@ hub_cloud_permissions = {
                     "s3:*"
                 ],
                 "Resource": [
-                  "arn:aws:s3:::usgs-landsat/*"
+                  "arn:aws:s3:::usgs-landsat/*",
+                  "arn:aws:s3:::is2-cloud-experiments/*"
                 ]
             }
         ]
@@ -75,7 +77,8 @@ hub_cloud_permissions = {
                     "s3:*"
                 ],
                 "Resource": [
-                  "arn:aws:s3:::usgs-landsat"
+                  "arn:aws:s3:::usgs-landsat",
+                  "arn:aws:s3:::is2-cloud-experiments"
                 ]
             },
             {
@@ -84,7 +87,8 @@ hub_cloud_permissions = {
                     "s3:*"
                 ],
                 "Resource": [
-                  "arn:aws:s3:::usgs-landsat/*"
+                  "arn:aws:s3:::usgs-landsat/*",
+                  "arn:aws:s3:::is2-cloud-experiments/*"
                 ]
             }
         ]
